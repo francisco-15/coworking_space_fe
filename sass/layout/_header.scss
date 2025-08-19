@@ -1,0 +1,26 @@
+@use "./../abstracts/variables" as *;
+
+/* Diseño del header */
+header {
+  padding: $space-10 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  ul {
+    display: flex;
+    gap: $space-9;
+    text-transform: capitalize;
+    a {
+      color: $color-three;
+      font-size: $text-size-bt;
+      &:hover {
+        color: $color-one;
+      }
+    }
+  }
+
+  aside ul {
+    align-items: center;
+  }
+}

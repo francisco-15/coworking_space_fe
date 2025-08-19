@@ -1,0 +1,8 @@
+@use "./../abstracts/variables" as *;
+
+/* color base la página web */
+body {
+  background-color: $color-two;
+  margin: auto;
+  width: 90%;
+}
