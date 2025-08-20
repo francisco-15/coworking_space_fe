@@ -15,13 +15,31 @@ header {
     a {
       color: $color-three;
       font-size: $text-size-bt;
-      &:hover {
-        color: $color-one;
-      }
     }
+  }
+
+  nav ul a:hover {
+    color: $color-one;
   }
 
   aside ul {
     align-items: center;
+
+    li:nth-of-type(2) a {
+      text-decoration: underline;
+      color: $color-one;
+      &:hover {
+        color: $color-five;
+      }
+    }
+
+    li:nth-of-type(3) a {
+      background-color: $color-one;
+      color: $color-two;
+      padding: $space-7 $space-11;
+      &:hover {
+        background-color: $color-five;
+      }
+    }
   }
 }
