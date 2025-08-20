@@ -53,4 +53,21 @@ body {
       }
     }
   }
+
+  .container-services {
+    display: flex;
+    justify-content: space-between;
+    gap: $space-10;
+    padding-bottom: $space-10;
+
+    .card h2 {
+      font-weight: 300;
+      padding-bottom: $space-5;
+    }
+
+    .card p {
+      color: $color-four;
+      max-width: 200px;
+    }
+  }
 }
