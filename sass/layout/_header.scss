@@ -2,14 +2,15 @@
 
 /* Diseño del header */
 header {
-  padding: $space-10 0px;
+  padding-top: $space-10;
+  padding-bottom: $space-15;
   display: flex;
   justify-content: space-between;
   align-items: center;
 
   ul {
     display: flex;
-    gap: $space-9;
+    gap: $space-15;
     text-transform: capitalize;
     a {
       color: $color-three;

@@ -5,4 +5,52 @@ body {
   background-color: $color-two;
   margin: auto;
   width: 90%;
+
+  .container-hero {
+    background-image: url(./../../img/hero-background.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 56vw;
+    height: 100vh;
+
+    .text-hero {
+      background-image: linear-gradient(
+        to right,
+        rgb(240, 240, 240, 0.5),
+        rgb(255, 255, 255)
+      );
+      width: 35%;
+      position: absolute;
+      left: 55%;
+      padding: $space-15;
+      top: 20%;
+      .container-text-hero-a {
+        font-size: $text-size-3xl;
+        font-weight: 100;
+        max-width: 400px;
+        padding-bottom: $space-8;
+        h1 span {
+          text-transform: capitalize;
+          font-style: normal;
+        }
+      }
+      .container-text-hero-b {
+        font-size: $text-size-base;
+        color: $color-four;
+        max-width: 440px;
+      }
+    }
+    .feature {
+      position: absolute;
+      left: 63%;
+      top: 56%;
+
+      ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: $space-6;
+        text-transform: capitalize;
+      }
+    }
+  }
 }
