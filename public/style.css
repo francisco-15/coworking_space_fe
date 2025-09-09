@@ -1,0 +1,158 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+/* Variables de fuentes */
+/* variables para espaciado como: (Padding, Margin, Gap, Width, Height, etc.) */
+/* Variables para tamaño de fuente (font-size y line-height) */
+/* Variables para los colores */
+/* Variables para breakpont */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ol,
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+}
+
+/* Diseño del header */
+header {
+  padding-top: 1.5rem;
+  padding-bottom: 3.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header ul {
+  display: flex;
+  gap: 3.5rem;
+  text-transform: capitalize;
+}
+header ul a {
+  color: #515051;
+  font-size: 1.125rem;
+}
+header nav ul a:hover {
+  color: #9a9a79;
+}
+header aside ul {
+  align-items: center;
+}
+header aside ul li:nth-of-type(2) a {
+  text-decoration: underline;
+  color: #9a9a79;
+}
+header aside ul li:nth-of-type(2) a:hover {
+  color: #a7a760;
+}
+header aside ul li:nth-of-type(3) a {
+  background-color: #9a9a79;
+  color: #fffefe;
+  padding: 0.875rem 1.75rem;
+}
+header aside ul li:nth-of-type(3) a:hover {
+  background-color: #a7a760;
+}
+
+/* color base la página web */
+body {
+  background-color: #fffefe;
+  margin: auto;
+  width: 90%;
+}
+body .container-hero {
+  background-image: url(./../../img/hero-background.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 56vw;
+  height: 100vh;
+}
+body .container-hero .text-hero {
+  background-image: linear-gradient(to right, rgba(240, 240, 240, 0.5), rgb(255, 255, 255));
+  width: 35%;
+  position: absolute;
+  left: 55%;
+  padding: 3.5rem;
+  top: 20%;
+}
+body .container-hero .text-hero .container-text-hero-a {
+  font-size: 1.875rem;
+  font-weight: 100;
+  max-width: 400px;
+  padding-bottom: 1rem;
+}
+body .container-hero .text-hero .container-text-hero-a h1 {
+  font-weight: 520;
+}
+body .container-hero .text-hero .container-text-hero-a h1 span {
+  text-transform: capitalize;
+}
+body .container-hero .text-hero .container-text-hero-b {
+  font-size: 1rem;
+  color: #afaeae;
+  max-width: 440px;
+}
+body .container-hero .feature {
+  position: absolute;
+  left: 63%;
+  top: 56%;
+}
+body .container-hero .feature ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+  text-transform: capitalize;
+}
+body .container-services {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+body .container-services .card h2 {
+  font-weight: 300;
+  padding-bottom: 0.625rem;
+}
+body .container-services .card p {
+  color: #afaeae;
+  max-width: 200px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/*# sourceMappingURL=style.css.map */
