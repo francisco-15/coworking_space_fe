@@ -19,7 +19,7 @@ body {
         rgb(240, 240, 240, 0.5),
         rgb(255, 255, 255)
       );
-      width: 35%;
+      width: 700px;
       position: absolute;
       left: 55%;
       padding: $space-15;
@@ -27,7 +27,7 @@ body {
       .container-text-hero-a {
         font-size: $text-size-3xl;
         font-weight: 100;
-        max-width: 400px;
+        max-width: 600px;
         padding-bottom: $space-8;
 
         h1 {
@@ -46,13 +46,18 @@ body {
     .feature {
       position: absolute;
       left: 63%;
-      top: 56%;
-
+      top: 63%;
       ul {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: $space-6;
         text-transform: capitalize;
+        li {
+          white-space: nowrap;
+          display: flex;
+          align-items: center;
+          gap: $space-3;
+        }
       }
     }
   }
