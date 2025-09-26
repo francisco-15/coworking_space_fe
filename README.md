@@ -97,7 +97,7 @@ git clone https://github.com/francisco-15/coworking_space_fe.git
 
 # 2. Accede a la carpeta del proyecto
 cd code
-```
+
 # 3. Instala las dependencias (necesario para compilar Sass)
 npm install
 ```
