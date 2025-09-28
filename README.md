@@ -39,7 +39,7 @@ Follow these steps to clone the project and set it up locally:
 git clone https://github.com/francisco-15/coworking_space_fe.git
 
 # 2. Access the project folder
-cd code 
+cd coworking_space_fe 
 
 # 3. Install dependencies (required to compile Sass)
 npm install
@@ -96,7 +96,7 @@ Sigue estos pasos para clonar el proyecto y configurarlo localmente:
 git clone https://github.com/francisco-15/coworking_space_fe.git
 
 # 2. Accede a la carpeta del proyecto
-cd code
+cd coworking_space_fe
 
 # 3. Instala las dependencias (necesario para compilar Sass)
 npm install
