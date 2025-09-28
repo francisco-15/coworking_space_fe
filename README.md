@@ -18,7 +18,7 @@ This design aims to illustrate how a professional digital presence can impact a 
 ## 🌟 Key Features
 
 * **High-Impact Design:** This is the *homepage* or **visible face** of the website, designed to offer a comfortable user experience.
-* **Visible Services:** Key services offered, such as "*Web design projects*", are prominently displayed.
+* **Visible Services:** Key services offered, such as "*Space for Event*", are prominently displayed.
 
 **⚠️ Important Note:** This project is a **static frontend design**. It is a demonstration of **CSS/Sass** and HTML skills without any *backend* (server) functionality.
 
@@ -75,7 +75,7 @@ Este diseño busca ilustrar cómo una presencia digital profesional puede impact
 ## 🌟 Características Principales
 
 * **Diseño de Alto Impacto:** Es el *home* o **cara visible** de la web, diseñado para ofrecer una experiencia de usuario confortable.
-* **Servicios Visibles:** Muestra de forma destacada los servicios clave ofrecidos, como "*Web design projects*".
+* **Servicios Visibles:** Muestra de forma destacada los servicios clave ofrecidos, como "*Space for Event*".
 
 **⚠️ Nota Importante:** Este proyecto es un **diseño frontend estático**. Es una demostración de **CSS/Sass** y HTML sin ninguna funcionalidad de *backend* (servidor).
 
