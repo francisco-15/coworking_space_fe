@@ -2,7 +2,7 @@
 
 # Coworking Space (CSS Demo) 🎨
 
-This project is a **practical demonstration of my CSS and Sass skills**, simulating the *homepage* of a fictitious **Coworking or Workspace Rental Agency**. The main goal is to showcase a modern, responsive design.
+This project is a **practical demonstration of my CSS and Sass skills**, simulating the *homepage* of a fictitious **Coworking or Workspace Rental Agency**.
 
 ## 📝 Description
 
@@ -59,7 +59,7 @@ npm run dev
 
 # Coworking Space (Demo CSS) 🎨
 
-Este proyecto es una **demostración práctica de mis habilidades en CSS y Sass**, simulando la sección *home* de una **Agencia de alquiler de espacio de trabajo o coworing** ficticia. El objetivo principal es mostrar un diseño moderno y responsivo.
+Este proyecto es una **demostración práctica de mis habilidades en CSS y Sass**, simulando la sección *home* de una **Agencia de alquiler de espacio de trabajo o coworing** ficticia.
 
 ## 📝 Descripción
 
